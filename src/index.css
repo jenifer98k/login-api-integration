@@ -1,0 +1,223 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* background-color: rgb(157, 236, 210); */
+  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwzy0596BWknshrh8FZLc5zWxJ0VuFCe1Rl58jnJqdRCV30xXmeV21sadeH5VZdSgBGbc&usqp=CAU"); */
+background-repeat: no-repeat;
+background-size: 100% 180%;
+
+}
+body {
+  /* background-image: url("https://i0.wp.com/bluejay.com.my/wp-content/uploads/2021/12/Kids-clothes-Hong-Kong-seed.jpg?resize=800%2C460&ssl=1");
+background-repeat: no-repeat; */
+}
+.signinform-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  /* background-color: rgb(157, 236, 210); */
+  margin: 0;
+  padding: 0;
+
+}
+
+  img {
+    height: 120%;
+    width: 85%;
+}
+.signup{
+ 
+    margin-top: 50px;
+    /* padding-top: 40px;  */
+    margin-right: 80px;
+    padding-right: 80px;
+
+}
+
+
+input {
+  /* margin-left: 49px; */
+    padding: 10px;
+    /* margin-bottom: 10px; */
+    border-radius: 5px;
+    border: 1px solid grey;
+    /* background-color: rgb(199, 226, 217); */
+}
+h2 {
+  margin-bottom: 10px;
+  font-size: 4rem;
+  color: purple;
+  padding: 36px;
+}
+button{
+ 
+    margin-top: 20px;
+    border: 1px solid grey;
+    background-color: pink;
+    padding: 10px;
+    border-radius: 5px;
+    color: #540e64;
+    /* margin-left: 106px; */
+}
+form{
+  text-align: center;
+  /* margin-top: 50px; */
+}
+.btn{
+  
+  background-color: pink;
+  font-style: none;
+  
+    color: inherit;
+    text-decoration: inherit;
+    cursor: inherit;
+
+}
+.username{
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 1000px) and (min-width: 280px)  {
+*{
+  /* background-color: blueviolet; */
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ4HDy91W_DnKaTlOEv5x_6kiMJ25IWVjMow&usqp=CAU");
+}
+.signinform-container {
+  display: grid;
+  grid-template-columns: auto ;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ4HDy91W_DnKaTlOEv5x_6kiMJ25IWVjMow&usqp=CAU");
+  text-align: center;
+  /* margin-left: 50px; */
+}
+img{
+  display: none;
+}
+.signup {
+  margin-top: 0;
+  padding-top: 0;
+  margin-right: 0;
+  padding-right: 0;
+  text-align: center;
+
+}
+h2
+  {
+    margin-bottom: 10px;
+    font-size: 3rem;
+    color:purple;
+}
+input{
+  width: 77%;
+}
+button{
+  width: 84%;
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyB1UFi0s0TqrpbToNGVXFsIQ8ccZdY4T_fw&usqp=CAU");
+  
+}
+.button-submit{
+  background-color: pink;
+}
+.btn{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyB1UFi0s0TqrpbToNGVXFsIQ8ccZdY4T_fw&usqp=CAU");
+}
+.login-form-container{
+  display: grid;
+  grid-template-columns: auto ;
+  background-color: rgb(94, 116, 116);
+}
+img{
+  display: none;
+}
+.im-l{
+  display: none;
+}
+}
+@media only screen and (max-width: 1000px) and (min-width: 400px)  {
+  button{
+    width: 80%;
+    background-color: pink;
+  font-style: none;
+  
+    color: inherit;
+    text-decoration: inherit;
+    cursor: inherit;
+  }
+  .img-l{
+    display: none;
+  }
+  .login-form-container{
+    display: grid;
+    grid-template-columns: auto ;
+  }
+
+  
+}
+.login-form {
+  align-items: center;
+  /* margin-right: -122px; */
+  /* margin-top: 90px; */
+  text-align: left;
+  /* padding-top: 70px; */
+}
+
+
+
+
+.login-form-container{
+
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 0px;
+  overflow: hidden;
+}
+@media only screen and (max-width: 2000px) and (min-width: 1000px) {
+  body{
+    /* background-color: blue; */
+  }
+  .img-l {
+    height: 136%;
+    width: 84%;
+  }
+  button{
+ 
+    width: 72%;
+    margin-left: 8px;
+
+    margin-top: 20px;
+    border: 1px solid grey;
+    background-color: pink;
+    padding: 10px;
+    border-radius: 5px;
+    color: #540e64;
+    /* margin-left: 106px; */
+}
+input {
+  margin-left: 6px;
+
+    padding: 10px;
+    /* margin-bottom: 10px; */
+    border-radius: 5px;
+    border: 1px solid grey;
+    /* background-color: rgb(199, 226, 217); */
+}
+.img-l{
+  height: 134%;
+  width:84%;
+
+}
+.btn-l{
+  width: 99%;
+  margin-left: 3px
+}
+.login-form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-h2{
+  margin-left: -27px;
+}
+}
+button:hover{
+background-color: rgb(111, 172, 172);
+}
+
+
